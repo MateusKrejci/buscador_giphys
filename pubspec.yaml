@@ -1,0 +1,23 @@
+name: buscador_giphys
+description: A new flutter application project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  share: ^0.5.3
+  transparent_image: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  application:
+    androidPackage: com.example.buscadorgiphys
+    iosBundleIdentifier: com.example.buscadorGiphys
